@@ -7,9 +7,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from imblearn.over_sampling import SMOTE
 
-# ---------------------------
+
 # Step 1: Generate Synthetic Data
-# ---------------------------
 np.random.seed(42)
 n_samples = 1500
 
