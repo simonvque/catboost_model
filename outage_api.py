@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 # Load the trained model
 model = CatBoostClassifier()
-model.load_model("catboost_model_improved.bin")
+model.load_model("risk_factor_outage_model.bin")
 
 @app.route('/predict', methods=['POST'])
 def predict():
