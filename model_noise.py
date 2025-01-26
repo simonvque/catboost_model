@@ -119,13 +119,13 @@ print(custom_data)
 print("Predicted Outages:", custom_predictions)
 
 
-# # Step 8: Save the Model
+# Step 8: Save the Model
 
-# # Save the model
-# model.save_model("catboost_model_improved.bin")
-# print("\nModel saved as 'catboost_model_improved.bin'")
+# Save the model
+model.save_model("catboost_model_improved.bin")
+print("\nModel saved as 'catboost_model_improved.bin'")
 
-# # Load the model
-# loaded_model = CatBoostClassifier()
-# loaded_model.load_model("catboost_model_improved.bin")
-# print("Model loaded successfully!")
+# Load the model
+loaded_model = CatBoostClassifier()
+loaded_model.load_model("catboost_model_improved.bin")
+print("Model loaded successfully!")
